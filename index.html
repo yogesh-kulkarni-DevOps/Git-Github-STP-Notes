@@ -1,26 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>STP Notes</title>
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LBEYVDXPYF"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-LBEYVDXPYF');
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STP Notes</title>
+
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LBEYVDXPYF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-LBEYVDXPYF');
+    </script>
+
+    <!-- Basic Styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 120px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #24292e;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #0366d6;
+        }
+    </style>
+
 </head>
 
 <body>
 
-<h1>Welcome to Git and GitHub</h1>
+    <div class="container">
+        <h1>Welcome to Git and GitHub</h1>
 
-<p>Click below to access the STP Notes.</p>
+        <p>
+            Click the button below to access the STP Notes repository on GitHub.
+        </p>
 
-<a href="https://github.com/yogesh-kulkarni-DevOps/STP-Notes">
-Download STP Notes
-</a>
+        <a class="btn" 
+           href="https://github.com/yogesh-kulkarni-DevOps/STP-Notes" 
+           target="_blank">
+           View STP Notes on GitHub
+        </a>
+    </div>
 
 </body>
+
 </html>
